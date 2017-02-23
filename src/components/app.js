@@ -108,6 +108,7 @@ export default class App extends Component {
 	}
 
   render() {
+  	this.sortBy(this.state.filter);
   	let displayedRepos = this.filterRepos();
 
     return (
